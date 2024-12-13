@@ -15,7 +15,8 @@ function submitFeedback() {
     document.getElementById('userEmail').innerHTML = email;
     document.getElementById('userJob').innerHTML = job;
     document.getElementById('userDesignation').innerHTML = designation;
-    document.getElementById('userProductChoice').innerHTML = productType;
+    document.getElementById('userProductChoice1').innerHTML = productType;
+    document.getElementById('userProductChoice2').innerHTML = productType;
     document.getElementById('userFeedback').innerHTML = feedback;
     document.getElementById('userExperience').innerHTML = experience;
 
